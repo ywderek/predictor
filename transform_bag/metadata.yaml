@@ -1,0 +1,147 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 31108127103
+  starting_time:
+    nanoseconds_since_epoch: 1788446502699911089
+  message_count: 34354
+  topics_with_message_count:
+    - topic_metadata:
+        name: /camera/image_raw/compressed
+        type: sensor_msgs/msg/CompressedImage
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_15640771531571185e2efc8a100baf923961a4d15d5569652e6cb6691e8e371a
+      message_count: 1622
+    - topic_metadata:
+        name: /tf_static
+        type: tf2_msgs/msg/TFMessage
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 1
+            reliability: reliable
+            durability: transient_local
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_e369d0f05a23ae52508854b66f6aa0437f3449d652e8cbf22d5abe85d020f087
+      message_count: 1
+    - topic_metadata:
+        name: /state
+        type: rm_msgs/msg/State
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 3
+            reliability: best_effort
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_9a42a0a2a236ce01fe11359c831fe95ca93b2f2730dfb7d94a1de6854f835e52
+      message_count: 15554
+    - topic_metadata:
+        name: /tf
+        type: tf2_msgs/msg/TFMessage
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 100
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+          - history: keep_last
+            depth: 100
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_e369d0f05a23ae52508854b66f6aa0437f3449d652e8cbf22d5abe85d020f087
+      message_count: 15555
+    - topic_metadata:
+        name: /vision
+        type: rm_msgs/msg/DetectionArray
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_9921a755b6caa04ae1b2fec39520cebf988dd02d838bb8c5280349669296e2c7
+      message_count: 1622
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - rosbag2_2026_09_03-22_41_42_0.mcap
+  files:
+    - path: rosbag2_2026_09_03-22_41_42_0.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1788446502699911089
+      duration:
+        nanoseconds: 31108127103
+      message_count: 34354
+  custom_data: ~
+  ros_distro: kilted
